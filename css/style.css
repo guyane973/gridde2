@@ -1,0 +1,74 @@
+body {
+    background-color:#fff;
+    }
+
+/* Début Ranger 1 à 6 */
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .one {
+    background-color: rgb(176 53 50);
+
+  }
+  .two {
+    background-color: rgb(51 168 165);
+  }
+  .three {
+    background-color: rgb(55 154 122);
+  }
+  .four {
+    background-color: rgb(106 71 143);
+  }
+  .five {
+    background-color: rgb(218 111 43);
+    height: 3em;
+  }
+  .six {
+    background-color: rgb(61 139 177);
+    grid-column: 4;
+    grid-row: 2 / 2;
+    height: 3em;
+  }
+  /* Fin Ranger 1 à 6 */
+
+
+  /* Début Ranger 7 à 9 */
+  .wrapper2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-top: -260px;
+  }
+
+  .seven {
+    background-color: rgb(224 63 63);
+    grid-column: 1 / 2;
+    grid-row: 3 / 3;
+    height: 3.5em;
+  }
+  .eight {
+    background-color: rgb(89 166 39);
+    grid-column: 3;
+    grid-row: 3 / 4;
+    height: 3.5em;
+  }
+  .nine {
+    background-color: rgb(68 100 161);
+    grid-column: 4;
+    grid-row: 3 / 4;
+    height: 3.5em;
+  }
+    /* Fin Ranger 7 à 9 */
+
+    /* Start Text */
+  p {
+      color: #fff;
+      margin-left: 2em;
+      margin-top: 1em;
+      font-size: large;
+  }
+    /* End Text */
